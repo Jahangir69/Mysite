@@ -78,9 +78,7 @@ nav a:hover{
 	background-position: 0 -400px;
 	border: none;
 }
-.main{
-	
-}
+
 .main h1{
 	text-align: center;
 	margin-top: 100px;
@@ -139,6 +137,7 @@ nav a:hover{
 }
 .button-1:hover{
 	font-weight: bold;
+
 }
 footer{
 	height: 80px;
@@ -149,7 +148,9 @@ footer{
 footer p{
 	margin-top: 25px;
 }
-@media(max-width:770px){
+
+/*--For responsive design*/
+@media(max-width:768px){
 	.main h1{
 		line-height: 1em;
 	}
@@ -173,5 +174,11 @@ footer p{
 	}
 	nav{
 		float: none;
+	}
+	nav li{
+		display: block;
+	}
+	.button-1{
+		margin-top: 5px;
 	}
 }
