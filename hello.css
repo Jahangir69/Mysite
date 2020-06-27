@@ -23,7 +23,7 @@ header{
 	background-color: #35424D;
 	color: white;
 	min-height: 100px;
-	border-bottom: red 3px solid;
+	border-bottom: #E8491D 3px solid;
 
 }
 .branding {
@@ -134,20 +134,49 @@ nav a:hover{
 	height: 35px;
 	margin: 0;
 	padding: 0;
+	margin-top: 5px;
 }
 .button-1:hover{
 	font-weight: bold;
 
 }
+
+
+.left-serv{
+	float: left;
+	width: 590px;
+}
+.right-serv{
+	float: right;
+	width: 270px;
+	color: #fff;
+}
+.serv{
+	border: 1px solid #CCCCCC;
+	background-color: #E6E6E6;
+	padding: 25px 15px;
+	margin-bottom: 5px;
+}
+.quote{
+	background-color: #35424A;
+	height: 300px;
+	padding-left: 20px;		
+}
+.quote h3{
+	padding-top: 15px;
+}
+
 footer{
 	height: 80px;
 	background-color: #E8491D;
 	text-align: center;
 	color: #fff;
+	margin-top: 20px;
 }
 footer p{
 	margin-top: 25px;
-}
+
+
 
 /*--For responsive design*/
 @media(max-width:768px){
