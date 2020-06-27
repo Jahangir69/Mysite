@@ -1,8 +1,7 @@
 body{
 	margin: 0;
 	background-color: #f4f4f4;
-	font-family: verdana;
-	font-size: 16px;
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
 	line-height: 1.6em;
 	margin: 0;
 	padding: 0;
@@ -14,6 +13,7 @@ body{
 	margin: 0 auto;
 	padding: 0;	
 	overflow: hidden;
+	
 }
 .clr{
 	clear: both;
@@ -144,13 +144,16 @@ nav a:hover{
 
 .left-serv{
 	float: left;
-	width: 590px;
+	width: 650px;
+	text-align: justify;
 }
+
 .right-serv{
 	float: right;
 	width: 270px;
 	color: #fff;
 }
+
 .serv{
 	border: 1px solid #CCCCCC;
 	background-color: #E6E6E6;
@@ -165,7 +168,18 @@ nav a:hover{
 .quote h3{
 	padding-top: 15px;
 }
-
+.about-2{
+	background-color: #35424A;
+	color: #fff;
+	padding: 10px;
+}
+.do{
+	background-color: #35424A;
+	padding: 0px 10px 10px 10px;
+}
+.do h3{
+	padding-top: 15px;
+}
 footer{
 	height: 80px;
 	background-color: #E8491D;
