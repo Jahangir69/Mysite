@@ -72,7 +72,7 @@ nav a:hover{
 #showcase{
 	min-height: 400px;
 	width: 100%;
-	background: url('images/showcase.jpg');
+	background: url('showcase.jpg');
 	padding-top: 0px;
 	border: 1px solid #fff;
 	background-position: 0 -400px;
